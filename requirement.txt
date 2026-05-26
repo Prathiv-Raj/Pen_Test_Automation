@@ -1,0 +1,15 @@
+# ============================================================
+#  Web Application Auto Pentest Tool v2.0
+#  Python Requirements
+#  Install with:
+#    pip install -r requirements.txt --break-system-packages
+# ============================================================
+
+# ── Core (Required — script will NOT run without these) ─────
+requests==2.31.0          # HTTP requests, crawling, header checks, CORS tests
+colorama==0.4.6           # Colored terminal output (green/red/yellow text)
+
+# ── Optional but Recommended ─────────────────────────────────
+python-whois==0.9.4       # WHOIS fallback if whois tool is missing
+                          # Used in Phase 1 WHOIS lookup fallback
+urllib3==2.0.7            # Comes with requests, pinned to avoid SSL warnings
