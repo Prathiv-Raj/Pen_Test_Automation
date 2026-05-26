@@ -18,8 +18,8 @@ This tool is for **authorized testing only**. Only use it on sites you own. Unau
 
 ```bash
 # 1. Clone
-git clone https://github.com/yourusername/webpentest-auto.git
-cd webpentest-auto
+git clone https://github.com/Prathiv-Raj/Pen_Test_Automation
+cd Pen_Test_Automation
 
 # 2. Python dependencies
 pip install -r requirements.txt --break-system-packages
@@ -96,7 +96,7 @@ firefox pentest_reports/pentest_yoursite_*/pentest_report.html
 
 ```
 webpentest-auto/
-├── pentest_auto_v2.py
+├── pentest.py
 ├── requirements.txt
 └── README.md
 ```
